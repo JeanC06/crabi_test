@@ -1,6 +1,6 @@
 # Análisis de Datos de Siniestros
 
-Este proyecto realiza un análisis de datos de siniestros utilizando archivos de Excel. A través de este análisis, se pueden obtener métricas como la siniestralidad mensual, las coberturas con mayor y menor cantidad de siniestros, y la severidad promedio por rango etario, entre otros.
+Este proyecto realiza un análisis de datos de siniestros utilizando archivos de Excel. A través de este análisis, se pueden obtener métricas como la siniestralidad mensual, las coberturas con mayor y menor cantidad de siniestros, y la severidad promedio por rango etario, entre otros, acorde a las necesidades propuestas.
 
 ## Requerimientos
 
@@ -22,7 +22,7 @@ pip install pandas openpyxl
    - El script carga los archivos de Excel desde una ruta específica y almacena los datos en DataFrames de Pandas.
 
 2. **Filtrado de Datos**:
-   - Se filtran los servicios donde el monto es diferente de cero y se seleccionan columnas relevantes de cada DataFrame.
+   - Se filtran los datos acorde a los requerimientos presentados.
 
 3. **Unión de Tablas**:
    - Se realizan múltiples uniones (merges) entre los DataFrames para crear un conjunto de datos completo.
@@ -51,6 +51,7 @@ pip install pandas openpyxl
 
 - El análisis se basa en supuestos y parámetros establecidos en el código. Se debe revisar y ajustarlo según sea necesario.
 - Cualquier error encontrado al leer archivos será informado en la consola.
+- El proyecto incluye además un archivo de Power Bi para otros graficos con información de valor, por supuesto si se desea hacer cambios se debe cambiar el origen en el power query.
 
 ## Contribuciones
 
